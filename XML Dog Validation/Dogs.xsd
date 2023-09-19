@@ -1,0 +1,18 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Dogslist">
+     <xs:complexType>
+        <xs:sequence>
+           <xs:element name="Dogs" maxOccurs="unbounded" minOccurs="0">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element type="xs:string" name="name"></xs:element>
+                    <xs:element type="xs:string" name="country"></xs:element>
+                    <xs:element type="xs:string" name="color"></xs:element>
+                </xs:sequence>
+                <xs:attribute type="xs:string" name="dig"></xs:attribute> 
+            </xs:complexType>
+           </xs:element> 
+        </xs:sequence>
+     </xs:complexType>   
+    </xs:element>
+</xs:schema>

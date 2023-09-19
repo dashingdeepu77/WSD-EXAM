@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Dogs.dtd" type="application/xml-dtd"?>
+<Dogslist>
+    <Dogs dig="a">
+        <name>German Sheperd</name>
+        <country>Germany</country>
+        <color>Brown</color>
+    </Dogs>
+
+    <Dogs dig="b">
+        <name>Lab</name>
+        <country>United States</country>
+        <color>Black</color>
+    </Dogs>
+
+    <Dogs dig="c">
+        <name>Rotveller</name>
+        <country>Japan</country>
+        <color>cream</color>
+    </Dogs>
+    <Dogs dig="d">
+        <name>Pug</name>
+        <country>USA</country>
+        <color>Brown</color>
+    </Dogs>
+
+    <Dogs dig="e">
+        <name>Boxer</name>
+        <country>Germany</country>
+        <color>white</color>
+    </Dogs>
+</Dogslist>
